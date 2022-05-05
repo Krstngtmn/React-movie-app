@@ -12,7 +12,6 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
-  font-family: "montserrat, sans-serif";
   font-weight: 200;
 }
 
@@ -20,7 +19,6 @@ body {
   margin: 0 auto;
   min-height: 100vh;
   background-color: var(--col-dark);
-  color: var(--col-light);
   padding: 0;
   text-decoration: none;
   list-style-type: none;
@@ -40,7 +38,7 @@ body {
   flex-wrap: wrap;
   padding: 1rem;
   min-height: 100vh;
-  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-columns: repeat(auto-fit, 250px);
   column-gap: 8px;
   row-gap: 8px;
   grid-gap: 0.2em;
@@ -49,9 +47,16 @@ body {
 }
 
 .card-body {
-  background-color: beige;
+  color: black;
   box-sizing: border-box;
   min-width: 200px;
   padding: 10px;
-  background-color: var(--col-accent);
+  background-color: rgb(26, 26, 26);
+}
+
+.modal-body {
+  align-content: center;
+  padding: 2rem 5rem;
+}
+.card-img {
 }
