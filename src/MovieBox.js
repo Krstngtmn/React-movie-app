@@ -13,7 +13,7 @@ const MovieBox = ({
   const releaseYear = release_date.split('-')[0];
 
   return (
-    <div className="card text-center mb-3">
+    <div className="card text-center">
       <div className="card-body">
         <img
           className="card-img-top"

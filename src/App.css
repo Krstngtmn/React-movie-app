@@ -27,7 +27,7 @@ body {
 
 .container {
   width: 100%;
-  margin: 20px 20px 0 20px;
+  margin-top: 2rem;
   text-align: center;
 }
 
@@ -39,9 +39,7 @@ body {
   padding: 1rem;
   min-height: 100vh;
   grid-template-columns: repeat(auto-fit, 250px);
-  column-gap: 8px;
-  row-gap: 8px;
-  grid-gap: 0.2em;
+  grid-gap: 1rem;
   justify-content: center;
   justify-content: center;
 }
